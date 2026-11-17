@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "control": {
+    "version": 1,
+    "variables": [
+      "margen",
+      "velocidad_relativa",
+      "continuidad",
+      "apoyo"
+    ],
+    "coeficientes": [
+      3.3735971749882645,
+      0.2116263145444588,
+      0.0789971538214497,
+      0.674939441526088
+    ],
+    "intercepto": 0.0,
+    "regularizacion": 0.01,
+    "iteraciones": 1200
+  },
+  "pausa": {
+    "coeficientes": [
+      1.9551085874145162,
+      -1.35384706131242,
+      -1.6368495758879156,
+      -1.3168225906846367
+    ],
+    "variables": [
+      "intercepto",
+      "v50_div3",
+      "fraccion_movil",
+      "v75_div5"
+    ],
+    "referencias": 4257,
+    "referencias_D": 1556,
+    "stride": 10,
+    "regularizacion": 0.02,
+    "iteraciones": 1600
+  },
+  "procedencia": {
+    "fuente": "metrica-sports/sample-data",
+    "commit": "e706dd506b360d69d9d123d5b8026e7294b13996",
+    "partido": "Sample_Game_1",
+    "gt_concurso_usado": false,
+    "n_referencias_control": 1623,
+    "referencias_pausa": "interiores de pases y salida/reanudaci\u00f3n; referencias d\u00e9biles externas"
+  },
+  "configuracion": {
+    "features": {
+      "fps": 25.000000000022737,
+      "largo": 105.0,
+      "ancho": 68.0,
+      "max_balon_ms": 45.0,
+      "max_jugador_ms": 13.0,
+      "radio_apoyo_m": 3.0,
+      "continuidad_s": 0.2
+    },
+    "mejora": {
+      "hueco_interpolable_s": 0.6,
+      "peso_interpolado": 0.35,
+      "suavizado_movimiento_s": 0.6,
+      "min_velocidades": 6,
+      "peso_pausa": 2.0,
+      "borde_m": 1.5
+    },
+    "temporal": {
+      "fps": 25.000000000022737,
+      "transferencia_por_s": 0.1,
+      "parada_por_s": 0.1,
+      "reanudacion_por_s": 0.25,
+      "independencia_s": 0.1,
+      "concentracion_min": 0.55,
+      "contexto_max_s": 3.0
+    }
+  }
+}

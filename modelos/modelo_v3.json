@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "base_v2": {
+    "version": 2,
+    "control": {
+      "version": 1,
+      "variables": [
+        "margen",
+        "velocidad_relativa",
+        "continuidad",
+        "apoyo"
+      ],
+      "coeficientes": [
+        3.3735971749882645,
+        0.2116263145444588,
+        0.0789971538214497,
+        0.674939441526088
+      ],
+      "intercepto": 0.0,
+      "regularizacion": 0.01,
+      "iteraciones": 1200
+    },
+    "pausa": {
+      "coeficientes": [
+        1.9551085874145162,
+        -1.35384706131242,
+        -1.6368495758879156,
+        -1.3168225906846367
+      ],
+      "variables": [
+        "intercepto",
+        "v50_div3",
+        "fraccion_movil",
+        "v75_div5"
+      ],
+      "referencias": 4257,
+      "referencias_D": 1556,
+      "stride": 10,
+      "regularizacion": 0.02,
+      "iteraciones": 1600
+    },
+    "procedencia": {
+      "fuente": "metrica-sports/sample-data",
+      "commit": "e706dd506b360d69d9d123d5b8026e7294b13996",
+      "partido": "Sample_Game_1",
+      "gt_concurso_usado": false,
+      "n_referencias_control": 1623,
+      "referencias_pausa": "interiores de pases y salida/reanudación; referencias débiles externas"
+    },
+    "configuracion": {
+      "features": {
+        "fps": 25.000000000022737,
+        "largo": 105.0,
+        "ancho": 68.0,
+        "max_balon_ms": 45.0,
+        "max_jugador_ms": 13.0,
+        "radio_apoyo_m": 3.0,
+        "continuidad_s": 0.2
+      },
+      "mejora": {
+        "hueco_interpolable_s": 0.6,
+        "peso_interpolado": 0.35,
+        "suavizado_movimiento_s": 0.6,
+        "min_velocidades": 6,
+        "peso_pausa": 2.0,
+        "borde_m": 1.5
+      },
+      "temporal": {
+        "fps": 25.000000000022737,
+        "transferencia_por_s": 0.1,
+        "parada_por_s": 0.1,
+        "reanudacion_por_s": 0.25,
+        "independencia_s": 0.1,
+        "concentracion_min": 0.55,
+        "contexto_max_s": 3.0
+      }
+    }
+  },
+  "control_v3": {
+    "coeficientes": [
+      0.5983877272483269,
+      0.040793039431985735,
+      -0.03928454871296118,
+      0.06734805792977143,
+      -0.19251031766510895,
+      1.0563359265346812,
+      0.3562725016718518,
+      0.33858232770732005,
+      0.6824511578797249
+    ],
+    "variables": [
+      "margen",
+      "velocidad_relativa",
+      "continuidad",
+      "apoyo",
+      "aproximacion",
+      "proximidad",
+      "intercepcion_04",
+      "intercepcion_08",
+      "margen_contexto"
+    ],
+    "regularizacion": 0.02,
+    "referencias": 17215,
+    "intercepto": 0.0
+  },
+  "duracion": {
+    "bordes_s": [
+      0.0,
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "transferencia_por_s": [
+      0.07162214479287034,
+      0.08694109297373175,
+      0.08770764119600187,
+      0.08074488979414493,
+      0.07538578294968458,
+      0.06031225818200594
+    ],
+    "exposicion_s": [
+      496.6000000000444,
+      543.600000000055,
+      732.500000000098,
+      1354.6999999998634,
+      1956.499999999316,
+      4373.79999999838
+    ],
+    "salidas_observadas": [
+      35.0,
+      47.0,
+      64.0,
+      109.0,
+      147.0,
+      263.0
+    ],
+    "parada_por_s": 0.1,
+    "reanudacion_por_s": 0.25,
+    "cola_s": 8.0,
+    "hz": 5.0,
+    "censura": "X y fronteras de periodo no se cuentan como cambios H/A"
+  },
+  "temperatura_control": 1.0,
+  "opciones": {
+    "duracion": false,
+    "peso_parada_extra": 0.0,
+    "retro_parada_s": 0.0
+  },
+  "procedencia": {
+    "gt_concurso_usado": false,
+    "skillcorner_commit": "4340d274572876239c154c90bc507a9b3250a656",
+    "metrica_commit": "e706dd506b360d69d9d123d5b8026e7294b13996",
+    "splits": {
+      "train": [
+        1874553,
+        1886347,
+        1899585
+      ],
+      "dev": [
+        1925299
+      ],
+      "test": [
+        1927964,
+        1953632
+      ]
+    },
+    "entrenamiento_metrica": "Sample_Game_1",
+    "etiquetas": "Metrica: anclas parciales; SkillCorner: posesión automática H/A. Sin etiquetas D de SkillCorner."
+  }
+}

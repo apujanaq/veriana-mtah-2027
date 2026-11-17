@@ -62,3 +62,60 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# -- notas de estudio: se versionan; sus SALIDAS no (detalle frame a frame derivado de los datos,
+#    notebooks ejecutados). Nunca publicar docs/estudio/salidas/ ni subirlo a LLMs (T&C).
+#    (La rama de Juliana ignoraba docs/estudio/ entero; aquí se versionan las notas y solo se
+#    ignoran sus salidas, que además viven fuera del repo en $MTAH_DATA_DIR/salidas.)
+docs/estudio/salidas/
+# Historial operativo local; la guía publicable está en docs/EJECUCION_LOCAL.md.
+docs/05_EJECUCION_LOCAL.md
+
+# -- paquetes de datos y derivados locales del pipeline (nunca al repo) ------------------------
+outputs/
+artifacts/
+*.npz
+*.npy
+*.parquet
+*.pkl
+*.pickle
+*.mp4
+*.mov
+*.avi
+*.zip
+*.tar
+*.gz
+*.7z
+*_atd.xml
+*_atd.txt
+*_smart_tagging.xml
+*_homography.csv
+*_ejecutado.ipynb
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Solo las cuatro baselines oficiales son excepciones; ningún baseline nuevo se publica solo
+# por compartir el prefijo del nombre.
+evaluation/results/baseline_*.csv
+!evaluation/results/baseline_raw.csv
+!evaluation/results/baseline_smooth25.csv
+!evaluation/results/baseline_smooth50.csv
+!evaluation/results/baseline_smooth125.csv
+
+# -- entrega ------------------------------------------------------------------------------------
+# El documento técnico SÍ se versiona y se publica (excepción explícita a *.pdf, que sigue ignorando
+# cualquier otro PDF, p. ej. resúmenes internos del equipo).
+!docs/entrega/Veriana.pdf
+# La submission NUNCA va al repo: se sube solo por el formulario (las dos grafías del nombre).
+**/Veriana.csv
+**/veriana.csv
+
+# Publicacion: impedir nuevos artefactos privados incluso fuera de outputs/
+*.csv
+*.ipynb
+*.pdf
+*.log
+*privado*.json
+docs/estudio/
+notebooks/
+salidas/

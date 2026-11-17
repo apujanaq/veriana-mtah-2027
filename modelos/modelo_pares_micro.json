@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "detector": "toques_micro_dfl_v1.json",
+  "seleccion_valida": true,
+  "umbral": 0.18,
+  "verificar": true,
+  "max_verificar": 50,
+  "tolerancia": 12,
+  "max_insertar": 50,
+  "train": [
+    "J03WMX",
+    "J03WN1",
+    "J03WOH"
+  ],
+  "dev": [
+    "J03WOY"
+  ],
+  "test_usado": false,
+  "metrica_para_seleccionar": false,
+  "concurso_accedido": false,
+  "base_calibracion": "juliana_v4_sin_tagging",
+  "base_destino": "alejo_v2_robusta",
+  "criterio": "max ganancia media spellF1 dev; pérdida por condición <=.005; mejora >=2 ruidos"
+}

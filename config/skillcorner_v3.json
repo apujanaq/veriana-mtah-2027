@@ -1,0 +1,125 @@
+{
+  "source": "SkillCorner/opendata",
+  "commit": "4340d274572876239c154c90bc507a9b3250a656",
+  "splits": {
+    "train": [
+      1874553,
+      1886347,
+      1899585
+    ],
+    "dev": [
+      1925299
+    ],
+    "test": [
+      1927964,
+      1953632
+    ]
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1097,
+      "git_sha1": "c1b414c6a4553572fec4a3e4c87ceddcdc73ffd9"
+    },
+    {
+      "path": "README.md",
+      "size": 12212,
+      "git_sha1": "d34e5956f7b5b93510764506e6501461a0c5cef8"
+    },
+    {
+      "path": "data/matches.json",
+      "size": 6648,
+      "git_sha1": "be9f7fd6906cca93b0d04c79692c016a08a34d98"
+    },
+    {
+      "path": "data/matches/1874553/1874553_match.json",
+      "size": 33730,
+      "git_sha1": "51ef142ceba0f85700b376faf1fdbc4e4a728629"
+    },
+    {
+      "path": "data/matches/1874553/1874553_phases_of_play.csv",
+      "size": 115978,
+      "git_sha1": "a566fbbaf11cf47838cdf36e6d7fe17904b85f59"
+    },
+    {
+      "path": "data/matches/1874553/1874553_tracking_extrapolated.jsonl",
+      "size": 133,
+      "git_sha1": "7439f0ba7da6bc03625258b98fe84a5bf770b72e"
+    },
+    {
+      "path": "data/matches/1886347/1886347_match.json",
+      "size": 27541,
+      "git_sha1": "10779035f95d26a30adf8330c351e4cc4d16a513"
+    },
+    {
+      "path": "data/matches/1886347/1886347_phases_of_play.csv",
+      "size": 121864,
+      "git_sha1": "2a37e6981af6f9b6e1f1878969927cd4234a549d"
+    },
+    {
+      "path": "data/matches/1886347/1886347_tracking_extrapolated.jsonl",
+      "size": 133,
+      "git_sha1": "6c1d01ae3bafa28cf94e4b7a581fb3779effe4bd"
+    },
+    {
+      "path": "data/matches/1899585/1899585_match.json",
+      "size": 27810,
+      "git_sha1": "42ca159d85dc59476bf5278961ccbda6633a3303"
+    },
+    {
+      "path": "data/matches/1899585/1899585_phases_of_play.csv",
+      "size": 119735,
+      "git_sha1": "c8df923b064575d49179301f93cedf8727106951"
+    },
+    {
+      "path": "data/matches/1899585/1899585_tracking_extrapolated.jsonl",
+      "size": 133,
+      "git_sha1": "8fdf9cb1e792bb5c4b141155a29e402a83e7ad0c"
+    },
+    {
+      "path": "data/matches/1925299/1925299_match.json",
+      "size": 28396,
+      "git_sha1": "62b69aba5be11f795ccdbcf65c6d07f662832b66"
+    },
+    {
+      "path": "data/matches/1925299/1925299_phases_of_play.csv",
+      "size": 131104,
+      "git_sha1": "20c06b378f9a7181ab0e02de7c4a37779316386a"
+    },
+    {
+      "path": "data/matches/1925299/1925299_tracking_extrapolated.jsonl",
+      "size": 133,
+      "git_sha1": "524413c8696e438255c33e46e50149ba5b6bf2c2"
+    },
+    {
+      "path": "data/matches/1927964/1927964_match.json",
+      "size": 33400,
+      "git_sha1": "e42fb7edbd49c81e087d0d73cc885cc3095d6a20"
+    },
+    {
+      "path": "data/matches/1927964/1927964_phases_of_play.csv",
+      "size": 117263,
+      "git_sha1": "d1960e21564d61372824bf8a844c68b391e35abb"
+    },
+    {
+      "path": "data/matches/1927964/1927964_tracking_extrapolated.jsonl",
+      "size": 133,
+      "git_sha1": "fa22f7fbca40a66d046b675e59b2c6ba0db19af6"
+    },
+    {
+      "path": "data/matches/1953632/1953632_match.json",
+      "size": 27767,
+      "git_sha1": "b63200aace34ada146ab615e776d9a022f1a72ad"
+    },
+    {
+      "path": "data/matches/1953632/1953632_phases_of_play.csv",
+      "size": 114478,
+      "git_sha1": "bd5c07b7010bc00c73cedcef497aaaadf12a6455"
+    },
+    {
+      "path": "data/matches/1953632/1953632_tracking_extrapolated.jsonl",
+      "size": 133,
+      "git_sha1": "3e3a8f6fea63aab93dce0b15f0eae11c547437ca"
+    }
+  ]
+}

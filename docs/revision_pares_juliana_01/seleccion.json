@@ -1,0 +1,9 @@
+{
+  "aprox": "alejo_v2_robusta",
+  "aceptada": false,
+  "mejor_experimental": "juliana_control_pares",
+  "concurso_evaluado": false,
+  "ajuste_con_metrica": false,
+  "motivo": "La composicion mejora spellF1 con ruido en ambos samples pero no alcanza precision micro >=0.5",
+  "criterios": []
+}

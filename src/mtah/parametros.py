@@ -1,0 +1,34 @@
+"""Documentación pública en README.md."""
+from contextlib import contextmanager
+PARAMS = {'W_SUAVE_COLECTIVA': dict(valor=25, unidad='frames (1 s)', origen='Parámetro global del método; documentación pública en README.md'), 'LAG_DIRECCION': dict(valor=2, unidad='frames', origen='Parámetro global del método; documentación pública en README.md'), 'MARGEN_FUERA': dict(valor=0.5, unidad='m', origen='Parámetro global del método; documentación pública en README.md'), 'V_COL_PARADA': dict(valor=1.4, unidad='m/s', origen='Parámetro global del método; documentación pública en README.md'), 'V_BALON_EN_JUEGO': dict(valor=3.0, unidad='m/s (mediana centrada 1 s)', origen='Parámetro global del método; documentación pública en README.md'), 'MIN_PARADA': dict(valor=50, unidad='frames (2 s)', origen='Parámetro global del método; documentación pública en README.md'), 'MIN_VIVO_ENTRE_PARADAS': dict(valor=25, unidad='frames (1 s)', origen='Parámetro global del método; documentación pública en README.md'), 'RETRO_FUERA': dict(valor=125, unidad='frames (5 s)', origen='Parámetro global del método; documentación pública en README.md'), 'R_CONTACTO': dict(valor=1.5, unidad='m', origen='Parámetro global del método; documentación pública en README.md'), 'DIST_NULA': dict(valor=5.0, unidad='m', origen='Parámetro global del método; documentación pública en README.md'), 'ALFA_NULO': dict(valor=0.01, unidad='nivel de significancia', origen='Parámetro global del método; documentación pública en README.md'), 'MIN_CONDUCCION': dict(valor=5, unidad='frames (0,2 s)', origen='Parámetro global del método; documentación pública en README.md')}
+CLAVES_V01 = tuple(PARAMS)
+PARAMS_V02 = {'DELTA_VENTANA_ST': dict(valor=100, unidad='frames (4 s)', origen='Parámetro global del método; documentación pública en README.md'), 'LAG_VIAJE': dict(valor=5, unidad='frames (0,2 s)', origen='Parámetro global del método; documentación pública en README.md'), 'MIN_VIAJE': dict(valor=3, unidad='frames', origen='Parámetro global del método; documentación pública en README.md'), 'RETRO_MAX': dict(valor=4500, unidad='frames (180 s)', origen='Parámetro global del método; documentación pública en README.md'), 'VIAJE_NETO_M': dict(valor=3.0, unidad='m', origen='Parámetro global del método; documentación pública en README.md'), 'SAQUE_NETO_M': dict(valor=0.0, unidad='m (0 = desactivada)', origen='Parámetro global del método; documentación pública en README.md'), 'RETRO_BALON': dict(valor=1500, unidad='frames (60 s)', origen='Parámetro global del método; documentación pública en README.md'), 'TOLERANCIA_CRUCE': dict(valor=12, unidad='frames (0,5 s)', origen='Parámetro global del método; documentación pública en README.md'), 'R_CENTRO': dict(valor=2.0, unidad='m', origen='Parámetro global del método; documentación pública en README.md'), 'SEP_MIN': dict(valor=0.3, unidad='m (en LAG_VIAJE frames)', origen='Parámetro global del método; documentación pública en README.md'), 'DELTA_NUCLEO': dict(valor=100, unidad='frames (4 s)', origen='Parámetro global del método; documentación pública en README.md'), 'MIN_VIVO_TRAS_SAQUE': dict(valor=250, unidad='frames (10 s)', origen='Parámetro global del método; documentación pública en README.md'), 'VISIBLE_MAX_PARADA': dict(valor=0.5, unidad='fracción del núcleo con el balón visible', origen='Parámetro global del método; documentación pública en README.md'), 'RETRO_FRENAZO': dict(valor=375, unidad='frames (15 s)', origen='Parámetro global del método; documentación pública en README.md'), 'RAMPA_NITIDA': dict(valor=10, unidad='frames (0,4 s)', origen='Parámetro global del método; documentación pública en README.md'), 'RAMPA_DIFUSA': dict(valor=50, unidad='frames (2 s)', origen='Parámetro global del método; documentación pública en README.md'), 'P_MIN': dict(valor=0.02, unidad='probabilidad', origen='Parámetro global del método; documentación pública en README.md'), 'TAU_TOQUE': dict(valor=0.55, unidad='probabilidad', origen='Parámetro global del método; documentación pública en README.md'), 'TAU_DECAY': dict(valor=5.0, unidad='s', origen='Parámetro global del método; documentación pública en README.md'), 'VENTANA_FORMA': dict(valor=25, unidad='frames (1 s)', origen='Parámetro global del método; documentación pública en README.md'), 'CONF_FIRME': dict(valor=0.8, unidad='probabilidad', origen='Parámetro global del método; documentación pública en README.md'), 'PUENTE_TRAS_HUECO': dict(valor=75, unidad='frames (3 s)', origen='Parámetro global del método; documentación pública en README.md'), 'MICRO_MAX': dict(valor=50, unidad='frames (2 s)', origen='Parámetro global del método; documentación pública en README.md'), 'MICRO_UMBRAL': dict(valor=0.5, unidad='probabilidad', origen='Parámetro global del método; documentación pública en README.md'), 'MARGEN_BANDA': dict(valor=0.3, unidad='m', origen='Parámetro global del método; documentación pública en README.md'), 'HUECO_FIRMA': dict(valor=25, unidad='frames (1 s)', origen='Parámetro global del método; documentación pública en README.md'), 'PEGADO_FIRMA': dict(valor=50, unidad='frames (2 s)', origen='Parámetro global del método; documentación pública en README.md'), 'CONF_FASE_ST': dict(valor=0.7, unidad='probabilidad', origen='Parámetro global del método; documentación pública en README.md'), 'PESO_FUSION_V3': dict(valor=0.5, unidad='peso en el pool log-lineal de P(H | balón vivo)', origen='Parámetro global del método; documentación pública en README.md'), 'PESO_CONTROL_V4': dict(valor=0.5, unidad='peso del control v4 en el pool log-lineal de P(H | balón vivo)', origen='Parámetro global del método; documentación pública en README.md'), 'SUAVE_PAUSA_V4': dict(valor=25, unidad='frames (1 s)', origen='Parámetro global del método; documentación pública en README.md'), 'PESO_PAUSA_V4': dict(valor=0.5, unidad='peso de la pausa supervisada v4 en el pool log-lineal de P(D)', origen='Parámetro global del método; documentación pública en README.md')}
+PARAMS.update(PARAMS_V02)
+
+def tabla_parametros():
+    """Documentación pública en README.md."""
+    return [dict(nombre=k, **v) for k, v in PARAMS.items()]
+_SOBRESCRITOS = {}
+
+@contextmanager
+def sobrescribir(**valores):
+    """Documentación pública en README.md."""
+    desconocidos = set(valores) - set(PARAMS)
+    if desconocidos:
+        raise KeyError(f'parámetros desconocidos: {sorted(desconocidos)}')
+    previo = dict(_SOBRESCRITOS)
+    _SOBRESCRITOS.update(valores)
+    try:
+        yield
+    finally:
+        _SOBRESCRITOS.clear()
+        _SOBRESCRITOS.update(previo)
+
+def valores_defecto(claves=None):
+    """Documentación pública en README.md."""
+    claves = PARAMS if claves is None else claves
+    return {k: PARAMS[k]['valor'] for k in claves}
+
+def p(nombre):
+    """Documentación pública en README.md."""
+    return _SOBRESCRITOS.get(nombre, PARAMS[nombre]['valor'])

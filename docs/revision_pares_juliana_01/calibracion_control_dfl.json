@@ -1,0 +1,62 @@
+[
+  {
+    "sd": 0.0,
+    "temperatura": 0.5,
+    "logloss": 0.4654087649923488
+  },
+  {
+    "sd": 0.0,
+    "temperatura": 1.0,
+    "logloss": 0.37210017843395893
+  },
+  {
+    "sd": 0.0,
+    "temperatura": 2.0,
+    "logloss": 0.42396791709670434
+  },
+  {
+    "sd": 0.4,
+    "temperatura": 0.5,
+    "logloss": 0.46848211338032336
+  },
+  {
+    "sd": 0.4,
+    "temperatura": 1.0,
+    "logloss": 0.3783418413711515
+  },
+  {
+    "sd": 0.4,
+    "temperatura": 2.0,
+    "logloss": 0.4314498241967104
+  },
+  {
+    "sd": 0.8,
+    "temperatura": 0.5,
+    "logloss": 0.47057035879933484
+  },
+  {
+    "sd": 0.8,
+    "temperatura": 1.0,
+    "logloss": 0.3902888366056844
+  },
+  {
+    "sd": 0.8,
+    "temperatura": 2.0,
+    "logloss": 0.44655971478993944
+  },
+  {
+    "sd": 1.0,
+    "temperatura": 0.5,
+    "logloss": 0.4858600351486315
+  },
+  {
+    "sd": 1.0,
+    "temperatura": 1.0,
+    "logloss": 0.4048343376988389
+  },
+  {
+    "sd": 1.0,
+    "temperatura": 2.0,
+    "logloss": 0.45923737478856397
+  }
+]

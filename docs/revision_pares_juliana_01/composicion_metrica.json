@@ -1,0 +1,159 @@
+{
+  "aprox": "juliana_control_pares",
+  "sd": 0.8,
+  "resultados": [
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "aprox": "alejo_v2_robusta",
+      "spellF1": 0.7263009845288326,
+      "macroF1": 0.8219453687920861,
+      "spells pred/ref": "323/388",
+      "micro pred/ref": "57/99",
+      "recall micro": 0.31313131313131315,
+      "precisión micro": 0.6491228070175439,
+      "frames_modificados": 0,
+      "micro_insertadas": 0,
+      "micro_retiradas": 0,
+      "toques_confiados": 0
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "aprox": "juliana_control_pares",
+      "spellF1": 0.7263009845288326,
+      "macroF1": 0.8219453687920861,
+      "spells pred/ref": "323/388",
+      "micro pred/ref": "57/99",
+      "recall micro": 0.31313131313131315,
+      "precisión micro": 0.6491228070175439,
+      "frames_modificados": 0,
+      "micro_insertadas": 0,
+      "micro_retiradas": 0,
+      "toques_confiados": 14
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "aprox": "alejo_v2_robusta",
+      "spellF1": 0.47647867950481426,
+      "macroF1": 0.7549853812092407,
+      "spells pred/ref": "339/388",
+      "micro pred/ref": "60/99",
+      "recall micro": 0.06060606060606061,
+      "precisión micro": 0.1,
+      "frames_modificados": 0,
+      "micro_insertadas": 0,
+      "micro_retiradas": 0,
+      "toques_confiados": 0
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "aprox": "juliana_control_pares",
+      "spellF1": 0.5114285714285715,
+      "macroF1": 0.7636021479317735,
+      "spells pred/ref": "312/388",
+      "micro pred/ref": "41/99",
+      "recall micro": 0.10101010101010101,
+      "precisión micro": 0.17073170731707318,
+      "frames_modificados": 4670,
+      "micro_insertadas": 0,
+      "micro_retiradas": 35,
+      "toques_confiados": 14
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "aprox": "alejo_v2_robusta",
+      "spellF1": 0.6850793650793652,
+      "macroF1": 0.8488004869267276,
+      "spells pred/ref": "273/357",
+      "micro pred/ref": "41/101",
+      "recall micro": 0.2376237623762376,
+      "precisión micro": 0.6097560975609756,
+      "frames_modificados": 0,
+      "micro_insertadas": 0,
+      "micro_retiradas": 0,
+      "toques_confiados": 0
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "aprox": "juliana_control_pares",
+      "spellF1": 0.6850793650793652,
+      "macroF1": 0.8488004869267276,
+      "spells pred/ref": "273/357",
+      "micro pred/ref": "41/101",
+      "recall micro": 0.2376237623762376,
+      "precisión micro": 0.6097560975609756,
+      "frames_modificados": 0,
+      "micro_insertadas": 0,
+      "micro_retiradas": 0,
+      "toques_confiados": 17
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "aprox": "alejo_v2_robusta",
+      "spellF1": 0.49286798179059177,
+      "macroF1": 0.799240772273921,
+      "spells pred/ref": "302/357",
+      "micro pred/ref": "39/101",
+      "recall micro": 0.06930693069306931,
+      "precisión micro": 0.10256410256410256,
+      "frames_modificados": 0,
+      "micro_insertadas": 0,
+      "micro_retiradas": 0,
+      "toques_confiados": 0
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "aprox": "juliana_control_pares",
+      "spellF1": 0.5283720930232558,
+      "macroF1": 0.8093366492826307,
+      "spells pred/ref": "288/357",
+      "micro pred/ref": "40/101",
+      "recall micro": 0.0594059405940594,
+      "precisión micro": 0.175,
+      "frames_modificados": 3985,
+      "micro_insertadas": 1,
+      "micro_retiradas": 34,
+      "toques_confiados": 29
+    }
+  ],
+  "aceptada": false,
+  "criterios": [
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "mejora_spell": 0.0,
+      "spell_ok": true,
+      "precision_ok": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "mejora_spell": 0.03494989192375719,
+      "spell_ok": true,
+      "precision_ok": false
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "mejora_spell": 0.0,
+      "spell_ok": true,
+      "precision_ok": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "mejora_spell": 0.03550411123266406,
+      "spell_ok": true,
+      "precision_ok": false
+    }
+  ],
+  "concurso_evaluado": false,
+  "ajuste_con_metrica": false
+}

@@ -1,0 +1,603 @@
+{
+  "entrenamiento": [
+    {
+      "partido": "J03WMX",
+      "sd": 0.0,
+      "filas": 15417,
+      "positivos": 1334
+    },
+    {
+      "partido": "J03WMX",
+      "sd": 0.4,
+      "filas": 15372,
+      "positivos": 1334
+    },
+    {
+      "partido": "J03WMX",
+      "sd": 0.8,
+      "filas": 15275,
+      "positivos": 1334
+    },
+    {
+      "partido": "J03WMX",
+      "sd": 1.0,
+      "filas": 15022,
+      "positivos": 1334
+    },
+    {
+      "partido": "J03WN1",
+      "sd": 0.0,
+      "filas": 14699,
+      "positivos": 1141
+    },
+    {
+      "partido": "J03WN1",
+      "sd": 0.4,
+      "filas": 14599,
+      "positivos": 1141
+    },
+    {
+      "partido": "J03WN1",
+      "sd": 0.8,
+      "filas": 14585,
+      "positivos": 1141
+    },
+    {
+      "partido": "J03WN1",
+      "sd": 1.0,
+      "filas": 14536,
+      "positivos": 1141
+    },
+    {
+      "partido": "J03WOH",
+      "sd": 0.0,
+      "filas": 13460,
+      "positivos": 714
+    },
+    {
+      "partido": "J03WOH",
+      "sd": 0.4,
+      "filas": 13594,
+      "positivos": 714
+    },
+    {
+      "partido": "J03WOH",
+      "sd": 0.8,
+      "filas": 13626,
+      "positivos": 714
+    },
+    {
+      "partido": "J03WOH",
+      "sd": 1.0,
+      "filas": 13472,
+      "positivos": 714
+    }
+  ],
+  "calibracion_por_condicion": [
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.01,
+      "tp": 126,
+      "pred": 2423,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.02,
+      "tp": 117,
+      "pred": 1505,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.04,
+      "tp": 99,
+      "pred": 907,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.06,
+      "tp": 80,
+      "pred": 628,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.08,
+      "tp": 72,
+      "pred": 462,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.12,
+      "tp": 44,
+      "pred": 202,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.18,
+      "tp": 13,
+      "pred": 45,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.25,
+      "tp": 3,
+      "pred": 4,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.35,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.5,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.65,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.8,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.0,
+      "umbral": 0.95,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.01,
+      "tp": 129,
+      "pred": 2721,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.02,
+      "tp": 117,
+      "pred": 1728,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.04,
+      "tp": 101,
+      "pred": 983,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.06,
+      "tp": 82,
+      "pred": 705,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.08,
+      "tp": 69,
+      "pred": 486,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.12,
+      "tp": 45,
+      "pred": 208,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.18,
+      "tp": 12,
+      "pred": 41,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.25,
+      "tp": 1,
+      "pred": 3,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.35,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.5,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.65,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.8,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.4,
+      "umbral": 0.95,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.01,
+      "tp": 129,
+      "pred": 3326,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.02,
+      "tp": 123,
+      "pred": 2212,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.04,
+      "tp": 99,
+      "pred": 1280,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.06,
+      "tp": 88,
+      "pred": 827,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.08,
+      "tp": 79,
+      "pred": 563,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.12,
+      "tp": 41,
+      "pred": 236,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.18,
+      "tp": 13,
+      "pred": 50,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.25,
+      "tp": 1,
+      "pred": 3,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.35,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.5,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.65,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.8,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 0.8,
+      "umbral": 0.95,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.01,
+      "tp": 127,
+      "pred": 3703,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.02,
+      "tp": 117,
+      "pred": 2514,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.04,
+      "tp": 101,
+      "pred": 1507,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.06,
+      "tp": 87,
+      "pred": 1000,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.08,
+      "tp": 66,
+      "pred": 658,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.12,
+      "tp": 40,
+      "pred": 278,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.18,
+      "tp": 11,
+      "pred": 59,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.25,
+      "tp": 2,
+      "pred": 4,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.35,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.5,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.65,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.8,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    },
+    {
+      "partido": "J03WOY",
+      "sd": 1.0,
+      "umbral": 0.95,
+      "tp": 0,
+      "pred": 0,
+      "ref": 132
+    }
+  ],
+  "calibracion_agrupada": {
+    "0.01": {
+      "tp": 511,
+      "pred": 12173,
+      "ref": 528,
+      "precision": 0.041978148361127086,
+      "recall": 0.9678030303030303,
+      "f1": 0.08046610503109991
+    },
+    "0.02": {
+      "tp": 474,
+      "pred": 7959,
+      "ref": 528,
+      "precision": 0.05955522050508858,
+      "recall": 0.8977272727272727,
+      "f1": 0.11170024743725698
+    },
+    "0.04": {
+      "tp": 400,
+      "pred": 4677,
+      "ref": 528,
+      "precision": 0.08552490912978405,
+      "recall": 0.7575757575757576,
+      "f1": 0.15369836695485112
+    },
+    "0.06": {
+      "tp": 337,
+      "pred": 3160,
+      "ref": 528,
+      "precision": 0.10664556962025316,
+      "recall": 0.6382575757575758,
+      "f1": 0.18275488069414317
+    },
+    "0.08": {
+      "tp": 286,
+      "pred": 2169,
+      "ref": 528,
+      "precision": 0.1318579990779161,
+      "recall": 0.5416666666666666,
+      "f1": 0.21208750463477938
+    },
+    "0.12": {
+      "tp": 170,
+      "pred": 924,
+      "ref": 528,
+      "precision": 0.18398268398268397,
+      "recall": 0.32196969696969696,
+      "f1": 0.23415977961432508
+    },
+    "0.18": {
+      "tp": 49,
+      "pred": 195,
+      "ref": 528,
+      "precision": 0.2512820512820513,
+      "recall": 0.0928030303030303,
+      "f1": 0.1355463347164592
+    },
+    "0.25": {
+      "tp": 7,
+      "pred": 14,
+      "ref": 528,
+      "precision": 0.5,
+      "recall": 0.013257575757575758,
+      "f1": 0.025830258302583026
+    },
+    "0.35": {
+      "tp": 0,
+      "pred": 0,
+      "ref": 528,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "0.5": {
+      "tp": 0,
+      "pred": 0,
+      "ref": 528,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "0.65": {
+      "tp": 0,
+      "pred": 0,
+      "ref": 528,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "0.8": {
+      "tp": 0,
+      "pred": 0,
+      "ref": 528,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "0.95": {
+      "tp": 0,
+      "pred": 0,
+      "ref": 528,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "umbral_elegido": 0.25,
+  "calibracion_valida": true,
+  "aceptacion_metrica_pendiente": true
+}

@@ -1,0 +1,392 @@
+{
+  "alcance": "solo parametros nuevos H/A; no C3 completa del pipeline",
+  "minimo": 0.944,
+  "umbral": 0.85,
+  "pasa": true,
+  "resultados": [
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MV_PENA",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MV_PENA",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MV_ESCALA",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MV_ESCALA",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9956790123456789,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_TOL",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "limpio",
+      "parametro": "MICRO_TOL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MV_PENA",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9952153110047848,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MV_PENA",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9873581847649918,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MV_ESCALA",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9952153110047848,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MV_ESCALA",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9873581847649918,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9948881789137379,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.944,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9557755775577558,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_TOL",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 1,
+      "condicion": "ruido",
+      "parametro": "MICRO_TOL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MV_PENA",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MV_PENA",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MV_ESCALA",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MV_ESCALA",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9905454545454546,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_TOL",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "limpio",
+      "parametro": "MICRO_TOL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MV_PENA",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9948186528497409,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MV_PENA",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9852631578947367,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MV_ESCALA",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9948186528497409,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MV_ESCALA",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9852631578947367,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 0.8,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_UMBRAL",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9958188153310104,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.9570469798657719,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_VERIFICAR_MAX",
+      "factor": 1.2,
+      "spellF1_vs_base": 0.9615658362989323,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_TOL",
+      "factor": 0.8,
+      "spellF1_vs_base": 0.993006993006993,
+      "D_conservada": true
+    },
+    {
+      "partido": 2,
+      "condicion": "ruido",
+      "parametro": "MICRO_TOL",
+      "factor": 1.2,
+      "spellF1_vs_base": 1.0,
+      "D_conservada": true
+    }
+  ]
+}
